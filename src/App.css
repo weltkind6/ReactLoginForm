@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Code", sans-serif;
+}
+
+.loggedIn {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.loggedIn__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background: sandybrown;
+    border: 5px solid deepskyblue;
+}
+
+.logoutBtn {
+    margin: 1em;
+    padding: 9px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.logoutBtn:hover {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}

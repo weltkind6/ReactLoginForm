@@ -1,0 +1,72 @@
+
+.form__wrapper {
+    width: 350px;
+    margin: 0 auto;
+    border: 5px solid deepskyblue;
+    background: sandybrown;
+}
+
+h2, h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2 {
+    padding-top: 1em;
+}
+
+.input-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.inputsWrapper {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    padding: 10px 0;
+}
+
+.inputForm {
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    padding-left: 7px;
+}
+.inputForm:focus {
+    background: deepskyblue;
+    border: none;
+    outline: none;
+}
+input::placeholder {
+    font-size: .8em;
+    font-style: italic;
+}
+
+.submitInput {
+    margin: 20px 0 2em 35px;
+    padding: 9px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.submitInput:hover {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+
+.messageBlock {
+    width: 100%;
+    height: 2em;
+    margin-top: 1em;
+    text-align: center;
+}
